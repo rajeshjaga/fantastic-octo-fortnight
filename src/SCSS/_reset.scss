@@ -4,24 +4,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 100%;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #222;
-  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   width: 100%;
-  display: grid;
-  place-items: center;
+  letter-spacing: 1px;
 }
-.app {
-    text-align: center;
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.cards-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
-  p {
-    font-size: 1rem;
+.hero {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-left: 10rem;
+  font-size: 2.75rem;
+}
+footer {
+  padding: 5rem;
+  background: #222;
+  color: #fcf;
+  text-align: center;
+  h3 {
+    font-size: 2rem;
   }
 }
